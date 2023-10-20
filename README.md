@@ -1,7 +1,7 @@
-LINUX CLASS at INCHEON
+Linux Class
 ======================
 
-C++ CLASS at INCHEON
+My First Fork
 -------------------
 
 # My First Branch
