@@ -1,7 +1,7 @@
 #!/bin/sh
 while [ 1 ]
 do
-        echo "시작하려면 y 또는 Y를 입력해주세요(이외키 입력시 종료) : Y"
+        echo -n "시작하려면 y 또는 Y를 입력해주세요(이외키 입력시 종료) : "
         read answer
         case $answer in
                 y | Y )
