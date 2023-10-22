@@ -1,15 +1,14 @@
 #!/bin/sh
-echo "Wanna Study? (Y/N)"
+echo "공부가 재미있나요? (yes / no)"
 read answer
 case $answer in
-	yes | y | Y | Yes | YES)
-		echo "That's great"
-		echo "CHEER UP ^^";;
+	yes | y | Y | Yes | YES )
+		echo "다행입니다."
+		echo "더욱 열심히 하세요 ^^";;
 	[nN]*)
-		echo "How Could you!!";;
+		echo "안타깝네요. ㅠㅠ";;
 	*)
-		echo "Y 아니면 N만 입력하세요"
+		echo "yes 아니면 no만 입력했어야죠"
 		exit 1;;
 esac
 exit 0
-

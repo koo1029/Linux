@@ -1,12 +1,12 @@
 #!/bin/sh
 case "$1" in
 	start)
-		echo "START~~";;
+		echo "START!!";;
 	stop)
-		echo "STOP~~";;
+		echo "STOP!!";;
 	restart)
-		echo "RESTART~~";;
+		echo "RESTART";;
 	*)
-		echo "ERROR~~";;
+		echo "UNKNOWN..";;
 esac
-exit 0
+exit

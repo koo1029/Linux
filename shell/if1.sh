@@ -1,8 +1,6 @@
 #!/bin/sh
-if [ 100 -gt  200 ]
+if [ "cook" = "cook" ]
 then
-	echo "100과 200은 같다"
-else
-	echo "100과 200은 다르다"
+	echo "참입니다."
 fi
 exit 0
